@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",                        // Use modern JS output
+    "lib": ["dom", "dom.iterable", "esnext"],  // Browser + latest JS features
+    "module": "esnext",                        // For use with Next.js/Vite/Web bundlers
+    "moduleResolution": "node",                // Resolve imports like Node
+    "allowJs": false,                          // Disallow .js files in the project
+    "skipLibCheck": true,                      // Speed up builds, skip checking type declarations
+    "esModuleInterop": true,                   // Enable `import React from "react"`
+    "forceConsistentCasingInFileNames": true,  // Enforce consistent import paths
+    "strict": true,                            // Enable all strict type-checking options
+    "noEmit": true,                            // Don't output .js files
+    "isolatedModules": true,                   // Ensure compatibility with tools like Babel/Vite
+    "jsx": "preserve",                         // Let Next.js handle JSX compilation
+    "resolveJsonModule": true,                 // Allow importing .json files
+    "incremental": true                        // Enable faster builds with caching
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
