@@ -1,6 +1,8 @@
 🧵 Summary (What You're Picking)
 You’re essentially going with:
 
+Link to site: https://react-job-search-swart.vercel.app/
+
 Layer	Your Choice	Why
 Framework	Next.js	Most adopted, full-stack, SSR
 Styling	Tailwind CSS	Fast, utility-first CSS
